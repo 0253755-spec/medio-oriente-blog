@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Retos del Medio Oriente en el Siglo XXI — Emiliano de la Cerda Valdez</title>
+  <meta name="description" content="Análisis breve, con propuestas de solución y fuentes, sobre los principales desafíos del Medio Oriente en el siglo XXI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f172a; /* slate-900 */
+      --card:#111827ee; /* gray-900 */
+      --text:#e5e7eb; /* gray-200 */
+      --muted:#94a3b8; /* slate-400 */
+      --accent:#22d3ee; /* cyan-400 */
+      --accent-2:#a78bfa; /* violet-400 */
+      --ok:#10b981;/* green-500 */
+      --warn:#f59e0b;/* amber-500 */
+      --bad:#ef4444;/* red-500 */
+    }
+    html,body{margin:0;padding:0;background:radial-gradient(1200px 600px at 80% -10%, #1f2937, transparent),var(--bg);color:var(--text);font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;line-height:1.6}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:grid;gap:10px;margin:10px 0 28px 0}
+    h1{font-size:clamp(28px,4vw,44px);line-height:1.1;margin:0;font-weight:800}
+    h2{margin-top:34px;font-size:clamp(22px,3vw,28px)}
+    h3{margin-top:22px}
+    p,li{font-size:1.02rem;color:var(--text)}
+    .byline{color:var(--muted)}
+    .grid{display:grid;gap:16px}
+    @media(min-width:900px){.grid{grid-template-columns:1.1fr .9fr}}
+    .card{background:linear-gradient(135deg,#0b1020, #141a2e);border:1px solid #1f2a44;padding:20px;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+    .pill{display:inline-flex;gap:8px;align-items:center;background:#0b1220;border:1px solid #1f2a44;color:#cbd5e1;padding:6px 10px;border-radius:999px;font-size:.9rem}
+    .tag{font-size:.78rem;color:#a5b4fc;background:rgba(167,139,250,.12);border:1px dashed rgba(167,139,250,.45);padding:4px 8px;border-radius:999px}
+    .toc{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 14px}
+    details{background:#0b1220;border:1px solid #1f2a44;border-radius:14px;padding:14px}
+    summary{cursor:pointer;font-weight:600}
+    .solutions li{margin:6px 0}
+    .badge{font-size:.82rem;padding:2px 8px;border-radius:999px}
+    .ok{background:rgba(16,185,129,.12);border:1px solid rgba(16,185,129,.45);color:#86efac}
+    .warn{background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.45);color:#fde68a}
+    .bad{background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.45);color:#fecaca}
+    .ref{font-size:.96rem;color:#cbd5e1}
+    a{color:var(--accent)}
+    .footer{margin-top:28px;color:var(--muted);font-size:.95rem}
+    .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+    .btn{background:linear-gradient(135deg, var(--accent), var(--accent-2));color:#0b1020;font-weight:700;border:none;border-radius:14px;padding:10px 14px;text-decoration:none;box-shadow:0 10px 24px rgba(34,211,238,.25)}
+    .table{width:100%;border-collapse:collapse}
+    .table th,.table td{border-bottom:1px dashed #223055;padding:10px;vertical-align:top}
+    .table th{color:#c7d2fe;font-weight:700;text-align:left}
+    .chip{display:inline-block;margin:2px 6px 2px 0;padding:4px 10px;border-radius:999px;background:#0c1426;border:1px solid #223055;color:#cbd5e1;font-size:.85rem}
+    mark{background:rgba(34,211,238,.12);color:#e0f2fe;padding:0 .25em;border-radius:.25rem}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="pill">🌍 Investigación — Medio Oriente (Siglo XXI)</span>
+      <h1>Retos del Medio Oriente en el Siglo XXI</h1>
+      <p class="byline">Autor: <strong>Emiliano de la Cerda Valdez</strong> · Fecha: <time datetime="2025-11-06">6 de noviembre de 2025</time> · Curso: Investigación</p>
+      <div class="toc">
+        <span class="tag">conflictos y seguridad</span>
+        <span class="tag">agua y clima</span>
+        <span class="tag">empleo juvenil</span>
+        <span class="tag">diversificación energética</span>
+        <span class="tag">migración y refugio</span>
+        <span class="tag">gobernanza</span>
+        <span class="tag">comercio y cadenas</span>
+      </div>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h2>1) Lista de retos principales</h2>
+        <ul>
+          <li><strong>Conflictos armados y tensiones geopolíticas</strong>, además de la violencia que se siente a ras de calle, desde Gaza e Israel hasta Yemen y Siria, con familias desplazadas, infraestructuras heridas y un cansancio social que se acumula día tras día</li>
+          <li><strong>Transición energética y precio del petróleo</strong>, la verdad es que la región vive entre el vaivén del barril y la urgencia de diversificar, porque cuando el precio sube hay oxígeno fiscal y cuando baja duele, y es que el mundo empuja hacia lo verde más rápido de lo que muchos presupuestos soportan</li>
+          <li><strong>Desempleo juvenil y baja participación de mujeres</strong>, una generación lista para trabajar que a veces se topa con puertas pesadas, títulos que no conectan con los empleos reales y cuidados no remunerados que frenan carreras que podrían despegar</li>
+          <li><strong>Escasez de agua y estrés hídrico</strong>, calor extremo, ríos que no alcanzan y ciudades que necesitan sombra y sistemas de alerta, un reto tan básico como abrir la llave y que salga agua segura</li>
+          <li><strong>Gobernanza y reformas institucionales</strong>, trámites laberinto, subsidios que ayudan pero no siempre a quien más lo necesita, contratos sociales que piden más claridad, más datos abiertos y menos opacidad</li>
+          <li><strong>Migración, desplazamiento y refugio</strong>, millones buscando un lugar donde empezar de nuevo, escuelas que se abarrotan, rentas que suben, hospitales al límite, comunidades receptoras que hacen lo posible con lo que tienen</li>
+          <li><strong>Comercio y logística</strong>, rutas como Suez y el Mar Rojo que a veces se vuelven cuello de botella, barcos desviándose, seguros más caros, productos que llegan tarde y encarecen la vida cotidiana</li>
+          <li><strong>Capacidades digitales, ciberseguridad y desinformación</strong>, conectividad que crece pero con brechas, riesgos de ataques y rumores virales que confunden justo cuando más claridad hace falta</li>
+        </ul>
+
+        <h2>2) Análisis breve por tema + propuestas</h2>
+        <table class="table">
+          <thead><tr><th>Tema</th><th>Diagnóstico</th><th>Posibles soluciones / medios</th><th>Riesgo actual</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Conflictos y seguridad</strong></td>
+              <td>La región carga con heridas abiertas, la gente necesita pausas humanitarias reales, instituciones que vuelvan a funcionar y vecindarios que puedan dormir sin sobresaltos</td>
+              <td class="solutions">
+                <ul>
+                  <li>Alto al fuego verificable y corredores humanitarios con monitoreo independiente, primero se protege a la gente, luego se negocia con tiempo</li>
+                  <li>Acuerdos de seguridad marítima y <em>task forces</em> para rutas críticas, menos incertidumbre para que el comercio no se detenga</li>
+                  <li>Fondos de reconstrucción condicionados a reformas y rendición de cuentas, no solo ladrillos, también instituciones que aguanten</li>
+                </ul>
+              </td>
+              <td><span class="badge bad">Alto</span></td>
+            </tr>
+            <tr>
+              <td><strong>Transición energética</strong></td>
+              <td>Cuando el petróleo manda el humor fiscal sube y baja como montaña rusa, y es que el mundo exige descarbonizar mientras la región aún depende de los hidrocarburos</td>
+              <td>
+                <ul>
+                  <li>Reglas fiscales anticíclicas y fondos soberanos con metas claras, amortiguar los ciclos para planear mejor</li>
+                  <li>Impulso a renovables, hidrógeno y cadenas de valor petroquímicas con mayor sofisticación, atraer inversión que también transfiera conocimiento</li>
+                  <li>Clusters de turismo, logística y TIC, diversificar con empleos de calidad que no dependan del precio del barril</li>
+                </ul>
+              </td>
+              <td><span class="badge warn">Medio–Alto</span></td>
+            </tr>
+            <tr>
+              <td><strong>Empleo juvenil y mujeres</strong></td>
+              <td>Hay talento, hay ganas, a veces faltan puentes, títulos que no conversan con lo que piden las empresas y cuidados que caen siempre en los mismos hombros</td>
+              <td>
+                <ul>
+                  <li>Reformas pro‑empleo, cuidado infantil accesible y licencias que no penalicen carreras, más mujeres entrando y quedándose</li>
+                  <li>Formación práctica y certificaciones rápidas en habilidades digitales e industriales, aprender lo que mañana se usa</li>
+                  <li>Crédito y garantías para pymes y <em>startups</em>, trámites simples, que emprender sea reto creativo y no maratón burocrático</li>
+                </ul>
+              </td>
+              <td><span class="badge warn">Medio–Alto</span></td>
+            </tr>
+            <tr>
+              <td><strong>Agua, clima y alimentos</strong></td>
+              <td>La sed organizada, así se siente, olas de calor más largas, campos que rinden menos, ciudades que necesitan más sombra y menos asfalto que quema</td>
+              <td>
+                <ul>
+                  <li>Gestión integrada del agua, riego eficiente, reúso y desalación con renovables, cada gota cuenta</li>
+                  <li>Reservas estratégicas de granos y cadenas frías resilientes, que la comida no falte cuando el clima aprieta</li>
+                  <li>Planificación urbana de adaptación, techos frescos, árboles, códigos de construcción y sistemas de alerta temprana</li>
+                </ul>
+              </td>
+              <td><span class="badge bad">Alto</span></td>
+            </tr>
+            <tr>
+              <td><strong>Gobernanza y finanzas públicas</strong></td>
+              <td>Cuando el Estado tarda en responder la vida se vuelve fila, los subsidios pesan, la transparencia aligera y la confianza se construye con datos abiertos</td>
+              <td>
+                <ul>
+                  <li>Presupuestos abiertos y compras electrónicas con trazabilidad, menos espacios para la sombra</li>
+                  <li>Reforma de subsidios con transferencias focalizadas, ayudar mejor sin romper la caja</li>
+                  <li>Capacitación en gestión pública y <em>GovTech</em>, herramientas sencillas que resuelvan problemas reales</li>
+                </ul>
+              </td>
+              <td><span class="badge warn">Medio</span></td>
+            </tr>
+            <tr>
+              <td><strong>Desplazamiento y refugio</strong></td>
+              <td>La mochila con lo esencial y el corazón apretado, familias cruzando fronteras, barrios que reciben como pueden</td>
+              <td>
+                <ul>
+                  <li>Acuerdos tipo <em>compacts</em> para empleo y servicios a cambio de apoyo financiero, alivio para quienes reciben y para quienes llegan</li>
+                  <li>Reconstrucción con retorno seguro, registro civil y desminado, volver con dignidad</li>
+                  <li>Integración laboral temporal y reconocimiento de cualificaciones, que la experiencia cuente donde se vuelva a empezar</li>
+                </ul>
+              </td>
+              <td><span class="badge bad">Alto</span></td>
+            </tr>
+            <tr>
+              <td><strong>Comercio y logística</strong></td>
+              <td>Cuando un canal se cierra la vida cotidiana lo nota, el paquete se retrasa, el costo sube, la pyme sufre</td>
+              <td>
+                <ul>
+                  <li>Cooperación naval y esquemas de seguro público‑privado para corredores seguros, reducir el susto y el sobrecosto</li>
+                  <li>Puertos modernos y aduanas digitales, menos papeles, más trazabilidad</li>
+                  <li>Facilitación comercial regional y ventanillas únicas, que el camión avance y no se quede en la garita</li>
+                </ul>
+              </td>
+              <td><span class="badge warn">Medio–Alto</span></td>
+            </tr>
+            <tr>
+              <td><strong>Digital y ciber</strong></td>
+              <td>La conexión llega pero no a todos, los ataques se vuelven más finos, los rumores corren más rápido que la verificación</td>
+              <td>
+                <ul>
+                  <li>Infraestructura abierta, marcos de ciberseguridad compartidos y equipos que se hablen entre países</li>
+                  <li>Alfabetización mediática y protección de datos, menos ruido, más confianza</li>
+                </ul>
+              </td>
+              <td><span class="badge warn">Medio</span></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>3) Conclusión</h2>
+        <p>
+          El nudo común se aprieta cuando conflicto, instituciones frágiles y economías poco diversificadas se retroalimentan, además, cuando falta agua y sube el calor todo lo demás se vuelve cuesta arriba, la salida pide tres carriles a la vez, seguridad humana con protección civil y corredores verificables, reformas que generen empleo juvenil y abran espacio a más mujeres, pymes con oxígeno y reglas claras para invertir, adaptación hídrica y climática con financiamiento verde que llegue a territorio, y es que la coordinación regional en agua, energía y comercio multiplica resultados, como engranes que por fin giran a la misma velocidad
+        </p>
+
+    
+    <section class="card" id="fuentes">
+      <h2>Fuentes y lecturas recomendadas</h2>
+      <ul class="ref">
+        <li>Banco Mundial — <a href="https://www.worldbank.org/en/region/mena/publication/middle-east-and-north-africa-economic-update-archiveapril2025" target="_blank" rel="noopener">MENA Economic Update, abril 2025</a>.</li>
+        <li>FMI — <a href="https://www.imf.org/en/Publications/REO/MECA/Issues/2025/10/21/regional-economic-outlook-middle-east-central-asia-october-2025" target="_blank" rel="noopener">Regional Economic Outlook, octubre 2025</a>.</li>
+        <li>IPCC AR6 WGII — <a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-4/" target="_blank" rel="noopener">Capítulo 4 Agua</a> y <a href="https://cdkn.org/sites/default/files/2022-09/IPCC%20Regional%20Factsheet_North%20Africa_Web.pdf" target="_blank" rel="noopener">hoja regional Norte de África</a>.</li>
+        <li>OCHA oPt — <a href="https://www.ochaopt.org/" target="_blank" rel="noopener">Actualizaciones humanitarias sobre Gaza/West Bank</a>.</li>
+        <li>UNHCR — <a href="https://data.unhcr.org/en/situations/syria" target="_blank" rel="noopener">Syria Regional Refugee Response</a>.</li>
+        <li>Washington Institute — <a href="https://www.washingtoninstitute.org/policy-analysis/houthi-shipping-attacks-patterns-and-expectations-2025" target="_blank" rel="noopener">Red Sea shipping attacks (2024–2025)</a>.</li>
+        <li>ILO — <a href="https://www.ilo.org/sites/default/files/2024-08/MENA%20GET%20Youth%20Brief%202024.pdf" target="_blank" rel="noopener">Youth brief MENA 2024–2025</a>.</li>
+        <li>Saudi Vision 2030 — <a href="https://www.vision2030.gov.sa/en" target="_blank" rel="noopener">sitio oficial</a> y análisis (Baker Institute, Carnegie).</li>
+        <li>World Bank — <a href="https://www.worldbank.org/en/region/mena/brief/office-of-the-chief-economist-mena/publications" target="_blank" rel="noopener">Economics of Water Scarcity in MENA (2025)</a>.</li>
+      </ul>
+    </section>
+
+    <section class="footer">
+      <p>© 2025 · Blog académico de Emiliano de la Cerda Valdez.</p>
+    </section>
+  </div>
+</body>
+</html>
